@@ -1,0 +1,110 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+
+body {
+  background-color: #4A55A2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11pt;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+h1 {
+  color: #4A55A2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+
+}
+
+h2 {
+  color: #7895CB;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+.btn-blue {
+  background-color: #45CFDD;
+  color: #4A55A2;
+  padding: 18px;
+  border-radius: 15px;
+
+}
+.btn-blue:hover {
+  color: #7895CB;
+
+}
+
+a {
+  color: #4A55A2;
+  text-decoration: none;
+  size: 4em ;
+
+}
+
+a:hover {
+  color: #C5DFF8;
+
+}
+
+
+.card {
+  background-color: #e0f0ff;
+  border-radius: 15px;
+  /* box-shadow: 25px 25px 4px black; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+  padding: 30px 30px 60px 30px ;
+  border: 1px solid #C5DFF8;
+  margin: 40px;
+
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+ul {
+  list-style: none;
+  margin-top: 40px;
+  padding-left: 0px;
+}
+
+
+.ma-class {
+  margin-bottom: 40px;
+  color: #4A55A2;
+
+}
